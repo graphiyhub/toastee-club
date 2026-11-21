@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#392317">
+  <meta name="description" content="Good food, great mood. Step inside Toaste Club for burgers, golden grilled sandwiches, coffee, matcha and comfort-food moments worth coming back for.">
+  <title>Toaste Club — Good Food. Great Mood.</title>
+  <link rel="preload" as="image" href="assets/hero-food.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Toaste Club home">
+      <img src="toaste%20club.jpg" alt="Toaste Club logo">
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+      <span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#menu">THE MENU</a>
+      <a href="#experience">THE VIBE</a>
+      <a href="#story">OUR STORY</a>
+      <a href="#visit">FIND THE CLUB</a>
+    </nav>
+    <a class="header-cta" href="#menu">GRAB A BITE <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow hero-eyebrow"><span class="eyebrow-dot"></span> YOUR NEW HAPPY PLACE</p>
+        <h1 id="hero-title">GOOD FOOD.<br>GREAT MOOD.<br><span>WELCOME TO<br>THE CLUB.</span></h1>
+        <p class="hero-description">Your daily dose of cheesy, crispy, creamy happiness.</p>
+        <div class="hero-actions">
+          <a class="button button-yellow" href="#menu">EXPLORE THE MENU <span aria-hidden="true">↘</span></a>
+          <a class="button button-outline" href="mailto:hello@toasteclub.example?subject=Join%20the%20Club">JOIN THE CLUB <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Freshly made toast and coffee">
+        <div class="hero-photo-wrap">
+          <img class="hero-photo" src="assets/hero-food.jpg" alt="A freshly prepared sandwich and coffee on a café table" fetchpriority="high">
+          <span class="photo-stamp">MADE<br>WITH<br>LOVE <b>♥</b></span>
+        </div>
+        <div class="hero-scribble" aria-hidden="true">one more<br>bite!</div>
+        <span class="hero-spark hero-spark-one" aria-hidden="true">✳</span>
+        <span class="hero-spark hero-spark-two" aria-hidden="true">✦</span>
+        <div class="hero-note">TOASTED<br>TO PERFECTION</div>
+      </div>
+      <div class="hero-bottom">
+        <span>EST. GOOD VIBES · EVERY DAY</span>
+        <a href="#menu">SCROLL TO THE GOOD STUFF <span aria-hidden="true">↓</span></a>
+        <span>FRESHLY MADE IN THE CLUBHOUSE</span>
+      </div>
+      <div class="ticker" aria-label="Freshly made, perfectly toasted, always delicious">
+        <div class="ticker-track" aria-hidden="true">
+          <span>FRESHLY MADE <i>✳</i> PERFECTLY TOASTED <i>✳</i> ALWAYS DELICIOUS <i>✳</i> FRESHLY MADE <i>✳</i> PERFECTLY TOASTED <i>✳</i> ALWAYS DELICIOUS <i>✳</i></span>
+          <span>FRESHLY MADE <i>✳</i> PERFECTLY TOASTED <i>✳</i> ALWAYS DELICIOUS <i>✳</i> FRESHLY MADE <i>✳</i> PERFECTLY TOASTED <i>✳</i> ALWAYS DELICIOUS <i>✳</i></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu" aria-labelledby="menu-title">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> GOOD THINGS, COMING RIGHT UP</p>
+          <h2 id="menu-title">THE CLUB <span>MENU</span></h2>
+        </div>
+        <p class="section-intro">Made fresh. Served with love.<br>Remembered forever.</p>
+      </div>
+      <div class="menu-toolbar reveal">
+        <div class="menu-filters" role="group" aria-label="Filter menu categories">
+          <button class="filter-chip is-active" type="button" data-filter="all" aria-pressed="true">THE WHOLE CLUB</button>
+          <button class="filter-chip" type="button" data-filter="burgers" aria-pressed="false">BURGERS</button>
+          <button class="filter-chip" type="button" data-filter="sandwiches" aria-pressed="false">SANDWICHES</button>
+          <button class="filter-chip" type="button" data-filter="drinks" aria-pressed="false">DRINKS</button>
+          <button class="filter-chip" type="button" data-filter="pasta" aria-pressed="false">PASTA</button>
+        </div>
+        <span class="menu-note">GOOD TASTE LIVES HERE <span aria-hidden="true">↙</span></span>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card menu-burger reveal" data-category="burgers">
+          <a class="menu-image" href="#favourites" aria-label="Discover our burger club favourite">
+            <img src="assets/burger.jpg" alt="Juicy cheeseburger stacked with lettuce and tomato" loading="lazy">
+            <span class="image-index">01 / CLUB CLASSIC</span><span class="image-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="menu-card-info"><div><p class="card-kicker">THE CROWD-PLEASER</p><h3>Burgers</h3></div><span class="price-placeholder">ASK US</span></div>
+          <p class="card-description">Big, juicy, gloriously messy. Exactly as a burger should be.</p>
+        </article>
+        <article class="menu-card menu-sandwich reveal" data-category="sandwiches">
+          <a class="menu-image" href="#favourites" aria-label="Discover our loaded grilled sandwich">
+            <img src="assets/grilled-sandwich.jpg" alt="Golden grilled cheese sandwich with a warm, crisp crust" loading="lazy">
+            <span class="image-index">02 / EXTRA TOASTY</span><span class="image-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="menu-card-info"><div><p class="card-kicker">THE MELTY ONE</p><h3>Grilled sandwiches</h3></div><span class="price-placeholder">ASK US</span></div>
+          <p class="card-description">Golden, crunchy edges. A soft, cheesy middle. No notes.</p>
+        </article>
+        <article class="menu-card menu-coffee reveal" data-category="drinks">
+          <a class="menu-image" href="#favourites" aria-label="Discover our iced coffee">
+            <img src="assets/coffee.jpg" alt="Rich, freshly made coffee served in a ceramic cup" loading="lazy">
+            <span class="image-index">03 / A LITTLE PICK-ME-UP</span><span class="image-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="menu-card-info"><div><p class="card-kicker">YOUR DAILY SIDEKICK</p><h3>Coffee</h3></div><span class="price-placeholder">ASK US</span></div>
+          <p class="card-description">Hot, iced, strong, smooth. Your kind of coffee, your way.</p>
+        </article>
+        <article class="menu-card menu-matcha reveal" data-category="drinks">
+          <a class="menu-image" href="#favourites" aria-label="Discover our iced matcha">
+            <img src="assets/matcha.jpg" alt="Iced matcha latte with a straw on a café table" loading="lazy">
+            <span class="image-index">04 / GREEN WITH ENVY</span><span class="image-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="menu-card-info"><div><p class="card-kicker">THE COOL CUSTOMER</p><h3>Matcha</h3></div><span class="price-placeholder">ASK US</span></div>
+          <p class="card-description">Fresh, creamy matcha with just the right amount of chill.</p>
+        </article>
+        <article class="menu-card menu-pasta reveal" data-category="pasta">
+          <a class="menu-image" href="#favourites" aria-label="Discover our creamy white sauce pasta">
+            <img src="assets/pasta.jpg" alt="Creamy pasta on a plate, ready to tuck into" loading="lazy">
+            <span class="image-index">05 / COMFORT IN A BOWL</span><span class="image-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="menu-card-info"><div><p class="card-kicker">THE COMFORT FOOD</p><h3>Pasta</h3></div><span class="price-placeholder">ASK US</span></div>
+          <p class="card-description">White sauce, yellow sauce, big comfort. Pick your happy.</p>
+        </article>
+        <a class="menu-callout reveal" href="#visit">
+          <span class="callout-star" aria-hidden="true">✳</span>
+          <span class="callout-label">GOOD FOOD<br>IS CALLING</span>
+          <span class="callout-link">COME ON IN <b aria-hidden="true">↗</b></span>
+        </a>
+      </div>
+      <p class="menu-disclaimer">Menu items and availability may vary. Ask the club for current selections and prices.</p>
+    </section>
+
+    <section class="experience-section" id="experience" aria-labelledby="experience-title">
+      <div class="experience-header section-pad reveal">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> YOU HAD TO BE THERE</p>
+        <h2 id="experience-title">IT'S NOT JUST A CAFE.<br><span>IT'S A WHOLE MOOD.</span></h2>
+      </div>
+      <div class="experience-collage">
+        <figure class="collage-shot collage-wide" data-parallax="0.08">
+          <img src="assets/club-moment.jpg" alt="Friends sharing a happy café moment over coffee" loading="lazy">
+          <figcaption>GOOD COMPANY, ALWAYS <span>♥</span></figcaption>
+        </figure>
+        <figure class="collage-shot collage-tall" data-parallax="-0.05">
+          <img src="assets/coffee-moment.jpg" alt="Iced coffee catching the afternoon light" loading="lazy">
+          <figcaption>THE LITTLE PICK-ME-UP</figcaption>
+        </figure>
+        <div class="collage-sticker" aria-label="A little more joy, please"><span>GOOD<br>MOOD<br>FOOD</span><b>✳</b></div>
+        <figure class="collage-shot collage-detail" data-parallax="0.06">
+          <img src="assets/grilled-sandwich.jpg" alt="A close-up of crisp toasted bread" loading="lazy">
+          <figcaption>THAT FIRST CRUNCH</figcaption>
+        </figure>
+        <p class="collage-note">stay a little<br>longer ↗</p>
+      </div>
+      <div class="experience-footer section-pad">
+        <p>Something hot, something toasted, someone to share it with.</p>
+        <a href="#story" class="text-link">GET TO KNOW US <span aria-hidden="true">↘</span></a>
+      </div>
+    </section>
+
+    <section class="favourites-section section-pad" id="favourites" aria-labelledby="favourites-title">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow"><span class="eyebrow-dot"></span> THE REGULARS KNOW</p><h2 id="favourites-title">CLUB <span>FAVOURITES</span></h2></div>
+        <p class="section-intro">A few reasons to make<br>this your regular spot.</p>
+      </div>
+      <div class="favourites-grid">
+        <article class="favourite-card favourite-feature reveal"><div class="favourite-photo"><img src="assets/burger.jpg" alt="Signature-style burger with fresh toppings" loading="lazy"><span class="favourite-sticker">FAN<br>FAVE <b>✳</b></span></div><div class="favourite-meta"><span>01 — THE BIG DEAL</span><span>BURGER</span></div><h3>Signature Burger</h3></article>
+        <article class="favourite-card reveal"><div class="favourite-photo"><img src="assets/grilled-sandwich.jpg" alt="A golden grilled sandwich made for sharing" loading="lazy"></div><div class="favourite-meta"><span>02 — THE MELT</span><span>SANDWICH</span></div><h3>Loaded Grilled Sandwich</h3></article>
+        <article class="favourite-card reveal"><div class="favourite-photo"><img src="assets/coffee-moment.jpg" alt="Chilled coffee in the afternoon sunshine" loading="lazy"></div><div class="favourite-meta"><span>03 — THE COOL DOWN</span><span>COFFEE</span></div><h3>Iced Coffee</h3></article>
+        <article class="favourite-card reveal"><div class="favourite-photo"><img src="assets/matcha.jpg" alt="A refreshing iced matcha latte" loading="lazy"></div><div class="favourite-meta"><span>04 — THE GREEN ONE</span><span>MATCHA</span></div><h3>Iced Matcha</h3></article>
+        <article class="favourite-card reveal"><div class="favourite-photo"><img src="assets/pasta.jpg" alt="A comforting bowl of creamy pasta" loading="lazy"></div><div class="favourite-meta"><span>05 — THE COMFORT</span><span>PASTA</span></div><h3>Creamy White Sauce Pasta</h3></article>
+      </div>
+      <p class="favourites-footnote">Just a taste of the club. Product names are serving suggestions, not official menu listings.</p>
+    </section>
+
+    <section class="story-section" id="story" aria-labelledby="story-title">
+      <div class="story-visual reveal">
+        <div class="story-photo"><img src="assets/cafe-interior.jpg" alt="Warm, welcoming café interior with tables ready for guests" loading="lazy"></div>
+        <div class="story-badge"><span>GOOD<br>FOOD<br>BRINGS<br>US TOGETHER</span><b>✳</b></div>
+        <span class="story-caption">PULL UP A CHAIR.</span>
+      </div>
+      <div class="story-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> A LITTLE ABOUT US</p>
+        <h2 id="story-title">EVERY CLUB<br>HAS A <span>STORY.</span></h2>
+        <p>Good food brings people together. At Toaste Club, we're all about serving delicious bites, comforting drinks, and moments worth coming back for.</p>
+        <p>Come for the crunch, stay for the company. There's always room at the table.</p>
+        <a class="text-link" href="#visit">PULL UP A CHAIR <span aria-hidden="true">↗</span></a>
+        <span class="story-doodle" aria-hidden="true">made with ♥</span>
+      </div>
+    </section>
+
+    <section class="social-section section-pad" id="social" aria-labelledby="social-title">
+      <div class="social-top reveal">
+        <div><p class="eyebrow"><span class="eyebrow-dot"></span> LITTLE MOMENTS, BIG CRAVINGS</p><h2 id="social-title">SPOTTED AT<br><span>THE CLUB.</span></h2></div>
+        <a class="button button-brown" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">FOLLOW THE CRAVINGS <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="social-grid">
+        <a class="social-tile social-tile-large reveal" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="More Toaste Club moments on Instagram"><img src="assets/hero-food.jpg" alt="Freshly toasted café food" loading="lazy"><span>THE PERFECT PAUSE ↗</span></a>
+        <a class="social-tile reveal" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="More Toaste Club moments on Instagram"><img src="assets/matcha.jpg" alt="Iced matcha latte" loading="lazy"><span>GREEN GOODNESS ↗</span></a>
+        <a class="social-tile reveal" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="More Toaste Club moments on Instagram"><img src="assets/burger.jpg" alt="Freshly made burger" loading="lazy"><span>THE GOOD STUFF ↗</span></a>
+        <a class="social-tile reveal" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="More Toaste Club moments on Instagram"><img src="assets/coffee-moment.jpg" alt="Iced coffee in warm afternoon light" loading="lazy"><span>COFFEE O'CLOCK ↗</span></a>
+        <a class="social-tile reveal" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="More Toaste Club moments on Instagram"><img src="assets/pasta.jpg" alt="A plate of comfort-food pasta" loading="lazy"><span>A LITTLE COMFORT ↗</span></a>
+      </div>
+      <div class="social-bottom"><span>@TOASTECLUB · YOUR PLACE, YOUR PEOPLE</span><span>TAG US IN YOUR GOOD DAYS <b aria-hidden="true">♥</b></span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="visit">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand footer-logo" href="#home" aria-label="Toaste Club home"><img src="toaste%20club.jpg" alt="Toaste Club logo"></a>
+        <p>Good food. Great mood.<br>See you at the clubhouse.</p>
+        <a class="footer-social" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">INSTAGRAM <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="footer-column"><h3>TAKE A LOOK</h3><a href="#menu">The menu</a><a href="#favourites">Club favourites</a><a href="#experience">The experience</a><a href="#story">Our story</a></div>
+      <div class="footer-column"><h3>THE GOOD STUFF</h3><a href="#menu">Burgers</a><a href="#menu">Grilled sandwiches</a><a href="#menu">Coffee & matcha</a><a href="#menu">Pasta</a></div>
+      <div class="footer-column footer-details"><h3>COME SAY HI</h3><a href="mailto:hello@toasteclub.example">hello@toasteclub.example</a><span>Location details coming soon</span><span>Daily hours: check back soon</span></div>
+    </div>
+    <div class="footer-marquee" aria-hidden="true"><span>GOOD FOOD. GREAT MOOD. GOOD FOOD. GREAT MOOD. GOOD FOOD. GREAT MOOD.</span></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> TOASTE CLUB. ALL GOOD THINGS RESERVED.</span><a href="#top">BACK TO THE TOP ↑</a><span>MADE FOR YOUR HAPPY PLACE.</span></div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+</body>
+</html>
